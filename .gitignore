@@ -1,0 +1,70 @@
+# ===========================================================================
+# Repositório PÚBLICO. Só entra aqui o que é produção própria e o que o
+# enunciado exige como entrega. Ver README.md.
+# ===========================================================================
+
+# --- Material didático do professor -----------------------------------------
+# Enunciados, plano de ensino, cronograma e material de estudo são documentos
+# do Prof. Paulo Rezeck. Não são redistribuídos num repositório público.
+plano-de-ensino.md
+cronograma.md
+relatorio-*.md
+meterial-estudo-*.md
+docs/cronograma.pdf
+
+# --- Terceiros --------------------------------------------------------------
+# Classe LaTeX do PPGCC (licença própria); usada apenas como referência.
+PPGCC-UFMG-template/
+
+# --- Ferramentas de trabalho, não fazem parte da entrega ---------------------
+.claude/
+CLAUDE.md
+TODO.md
+todo.todo
+**/todo.todo
+
+# --- Artefatos de compilação LaTeX -------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# --- FreeCAD ----------------------------------------------------------------
+*.FCStd1
+*.FCBak
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.pyc
+
+# --- Sistema ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ===========================================================================
+# Material de trabalho — fica no disco, fora da entrega
+# O enunciado (§5) exige: PDF, CAD nativo e/ou STEP, capturas dos parâmetros
+# e da geometria cotada, STL, registro de fatiamento e fotografias.
+# Guias operacionais, fontes LaTeX e scripts de geração não são entrega.
+# ===========================================================================
+r1_mecanica/FATIAR_NO_WINDOWS.md
+r1_mecanica/IMPRESSAO.md
+r1_mecanica/docs/
+r1_mecanica/relatorio/COMPILAR.md
+
+# Fontes LaTeX: entrega-se o PDF compilado
+r1_mecanica/relatorio/*.tex
+r1_mecanica/relatorio/*.bib
+r1_mecanica/relatorio/build.sh
+
+# Scripts de geração de figuras e o seu intermediário
+r1_mecanica/scripts/extrai_geometria.py
+r1_mecanica/scripts/gera_figuras.py
+r1_mecanica/figuras/geometria.json
