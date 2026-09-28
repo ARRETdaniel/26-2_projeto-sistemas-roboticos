@@ -10,6 +10,14 @@ plano-de-ensino.md
 cronograma.md
 relatorio-*.md
 meterial-estudo-*.md
+# Enunciados dentro das pastas dos módulos (maiúscula e acento no nome:
+# 'Relatório-2_Eletrônica-e-PCB.md' não casa com 'relatorio-*.md')
+**/Relat*rio-*.md
+**/relat*rio-*.md
+r1_mecanica/relatorio/COMPILAR.1.md
+*.tar
+*.zip
+r2_eletronica_PCB/relatorio/COMPILAR.md
 docs/cronograma.pdf
 
 # --- Terceiros --------------------------------------------------------------
@@ -68,3 +76,29 @@ r1_mecanica/relatorio/build.sh
 r1_mecanica/scripts/extrai_geometria.py
 r1_mecanica/scripts/gera_figuras.py
 r1_mecanica/figuras/geometria.json
+
+# ===========================================================================
+# R2 — só o que a §5 do enunciado exige. Fica no disco, fora da entrega:
+# scripts de geração, cálculos, datasheets de terceiros (entram como link no
+# README), fontes LaTeX, arquivos de etapa nativos e intermediários do KiCad.
+# ===========================================================================
+r2_eletronica_PCB/scripts/
+r2_eletronica_PCB/calc/
+r2_eletronica_PCB/figuras/
+r2_eletronica_PCB/datasheets/
+r2_eletronica_PCB/CAPTURAS_KICAD.md
+r2_eletronica_PCB/relatorio/*.tex
+r2_eletronica_PCB/relatorio/*.bib
+r2_eletronica_PCB/relatorio/build.sh
+r2_eletronica_PCB/kicad/etapas/
+r2_eletronica_PCB/kicad/*.net
+r2_eletronica_PCB/kicad/*.rpt
+r2_eletronica_PCB/kicad/fp-info-cache
+r2_eletronica_PCB/kicad/*-backups/
+r2_eletronica_PCB/kicad/*.kicad_prl
+r2_eletronica_PCB/kicad/.history/
+r2_eletronica_PCB/kicad/**/~*.lck
+r2_eletronica_PCB/exports/gerber/
+# instaladores/binários (>100 MB: o GitHub recusa)
+**/*.AppImage
+**/*.AppImage.tar

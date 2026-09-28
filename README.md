@@ -12,7 +12,7 @@ Entregas da disciplina **Projeto de Sistemas Robóticos**, DCC/UFMG,
 | # | Módulo | Relatório | Estado |
 |---|---|---|---|
 | **R1** | Mecânica e fabricação digital | [`Relatório 1 + Métodos generativos para novos padrões de transmissão`](r1_mecanica/relatorio/relatorio1.pdf) | entregue |
-| R2 | Eletrônica e PCB | — | — |
+| **R2** | Eletrônica e PCB | [`Relatório 2 + Roteamento e EDA assistido por LLM`](r2_eletronica_PCB/relatorio/relatorio2.pdf) | entregue |
 | R3 | Embarcado, sensores e filtragem | — | — |
 | R4 | Controle e odometria | — | — |
 | R5 | ROS, navegação e integração | — | — |

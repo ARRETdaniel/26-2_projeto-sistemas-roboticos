@@ -1,0 +1,48 @@
+** Drc report for boost_mt3608.kicad_pcb **
+** Created on 2026-09-28T06:35:10 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 10 Footprint errors **
+[net_conflict]: Pad net (/VIN) doesn't match net given by schematic (unconnected-(C1-Pad1))
+    Local override; warning
+    @(110.6000 mm, 111.4750 mm): Pad 1 [/VIN] of C1 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (Net-(C2-Pad1))
+    Local override; warning
+    @(126.4000 mm, 112.4750 mm): Pad 1 [+5V] of C2 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (unconnected-(C3-Pad1))
+    Local override; warning
+    @(129.4000 mm, 112.4750 mm): Pad 1 [+5V] of C3 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (Net-(D1-K))
+    Local override; warning
+    @(123.6000 mm, 112.0000 mm): Pad 1 [+5V] of D1 on F.Cu
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (Net-(D1-K))
+    Local override; warning
+    @(133.6000 mm, 112.4750 mm): PTH pad 1 [+5V] of J2
+[net_conflict]: Pad net (+5V) doesn't match net given by schematic (unconnected-(R1-Pad1))
+    Local override; warning
+    @(120.4250 mm, 106.2000 mm): Pad 1 [+5V] of R1 on F.Cu
+[net_conflict]: Pad net (/FB) doesn't match net given by schematic (Net-(R1-Pad2))
+    Local override; warning
+    @(118.7750 mm, 106.2000 mm): Pad 2 [/FB] of R1 on F.Cu
+[net_conflict]: Pad net (/FB) doesn't match net given by schematic (Net-(R1-Pad2))
+    Local override; warning
+    @(118.7750 mm, 108.0500 mm): Pad 1 [/FB] of R2 on F.Cu
+[net_conflict]: Pad net (/VIN) doesn't match net given by schematic (unconnected-(U1-EN-Pad4))
+    Local override; warning
+    @(114.8625 mm, 108.0500 mm): Pad 4 [/VIN] of U1 on F.Cu
+[net_conflict]: Pad net (/VIN) doesn't match net given by schematic (unconnected-(U1-IN-Pad5))
+    Local override; warning
+    @(114.8625 mm, 109.0000 mm): Pad 5 [/VIN] of U1 on F.Cu
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
