@@ -2,11 +2,9 @@
 #include <math.h>
 
 // LED infravermelho no D8, coletor do fototransistor no A0.
-// Versão corrigida do sketch usado no ensaio (ensaio_2026-10-06/main.cpp).
-// O cálculo é o mesmo; mudou só a impressão:
-//   - formato "sinal,mm", o que o plot_serial.py do roteiro reconhece como duas colunas
-//     (o formato "sinal: X,  distancia: Y" era descartado pelo script);
-//   - com sinal zero a distância é "nan", e não 0 (ver abaixo).
+// Versão final do sketch. O cálculo é o mesmo da versão usada no ensaio
+// (ensaio_2026-10-06/main.cpp); a impressão segue o formato "sinal,mm" do roteiro,
+// que o plot_serial.py desenha em milímetros, e o sinal zero sai como "nan".
 const int PIN_LED = 8;
 const int PIN_ADC = A0;
 
