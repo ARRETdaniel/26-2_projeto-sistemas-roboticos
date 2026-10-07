@@ -102,3 +102,27 @@ r2_eletronica_PCB/exports/gerber/
 # instaladores/binários (>100 MB: o GitHub recusa)
 **/*.AppImage
 **/*.AppImage.tar
+
+# ===========================================================================
+# Dados pessoais da equipe (e-mails): nunca publicar
+# ===========================================================================
+grupo-members.md
+
+# ===========================================================================
+# Relatório extra — Sensor de distância por infravermelho (Aula 13).
+# Só a entrega: PDF, planilha e dados, firmware. Ficam fora: material do
+# professor (roteiro, enunciado, figura), o modelo LaTeX do grupo (main.tex da
+# raiz, que é o R2 deles), exportações brutas da planilha, fotos originais,
+# fontes do relatório e scripts de análise.
+# ===========================================================================
+rExtra_infravermelho/Aula13_TCRT5000_roteiro.pdf
+rExtra_infravermelho/Sensor_de_distancia_por_infravermelho.md
+rExtra_infravermelho/figure-in-toreiro.png
+rExtra_infravermelho/main.tex
+rExtra_infravermelho/Relat*rio PSR*.csv
+rExtra_infravermelho/imgs/
+rExtra_infravermelho/code/
+rExtra_infravermelho/analise/
+rExtra_infravermelho/PERGUNTAS_EQUIPE.md
+rExtra_infravermelho/relatorio/*
+!rExtra_infravermelho/relatorio/main.pdf

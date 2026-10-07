@@ -16,6 +16,7 @@ Entregas da disciplina **Projeto de Sistemas Robóticos**, DCC/UFMG,
 | R3 | Embarcado, sensores e filtragem | — | — |
 | R4 | Controle e odometria | — | — |
 | R5 | ROS, navegação e integração | — | — |
+| Extra | Sensor de distância por infravermelho (Aula 13) | [`Relatório TCRT5000`](rExtra_infravermelho/relatorio/main.pdf) | entrega 08/10 |
 
 ---
 
